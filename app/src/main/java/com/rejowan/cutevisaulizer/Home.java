@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.rejowan.cutevisualizer.EqualizerView;
 
+
 public class Home extends AppCompatActivity {
 
     EqualizerView equalizerView;
