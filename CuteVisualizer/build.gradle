@@ -26,6 +26,19 @@ android {
         targetCompatibility JavaVersion.VERSION_11
     }
 
+    afterEvaluate {
+        publishing {
+            publications {
+                release(MavenPublication) {
+                    from components.release
+                    groupId = 'com.rejowan.cutevisaulizer'
+                    artifactId = 'cutevisaulizer'
+                    version = '1.0'
+                }
+            }
+        }
+    }
+
 }
 
 dependencies {
