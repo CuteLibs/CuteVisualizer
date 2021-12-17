@@ -1,24 +1,24 @@
-# CuteToast
+# CuteVisualizer
 
 
 [![platform](https://img.shields.io/badge/platform-Android-yellow.svg)](https://www.android.com)
  [![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21) [![JitPack](https://img.shields.io/jitpack/v/github/ahmmedrejowan/CuteVisualizer)](https://jitpack.io/#ahmmedrejowan/CuteVisualizer) [![GitHub license](https://img.shields.io/github/license/ahmmedrejowan/CuteVisualizer)](https://github.com/ahmmedrejowan/CuteVisualizer/blob/master/LICENSE)  
  
-[![GitHub forks](https://img.shields.io/github/forks/ahmmedrejowan/CuteToast)](https://github.com/ahmmedrejowan/CuteToast/network) [![GitHub issues](https://img.shields.io/github/issues/ahmmedrejowan/CuteToast)](https://github.com/ahmmedrejowan/CuteToast/issues) [![GitHub stars](https://img.shields.io/github/stars/ahmmedrejowan/CuteToast)](https://github.com/ahmmedrejowan/CuteToast/stargazers) [![GitHub contributors](https://img.shields.io/github/contributors/ahmmedrejowan/cutetoast)](https://github.com/ahmmedrejowan/CuteToast/graphs/contributors)
+[![GitHub forks](https://img.shields.io/github/forks/ahmmedrejowan/CuteVisualizer)](https://github.com/ahmmedrejowan/CuteVisualizer/network) [![GitHub issues](https://img.shields.io/github/issues/ahmmedrejowan/CuteVisualizer)](https://github.com/ahmmedrejowan/CuteVisualizer/issues) [![GitHub stars](https://img.shields.io/github/stars/ahmmedrejowan/CuteVisualizer)](https://github.com/ahmmedrejowan/CuteVisualizer/stargazers) [![GitHub contributors](https://img.shields.io/github/contributors/ahmmedrejowan/CuteVisualizer)](https://github.com/ahmmedrejowan/CuteVisualizer/graphs/contributors)
 
-![CuteToast](https://user-images.githubusercontent.com/42619122/117730837-d9e6cd00-b20e-11eb-94fb-3bd3582d4800.png)
+![CuteVisualizer](https://user-images.githubusercontent.com/42619122/117730837-d9e6cd00-b20e-11eb-94fb-3bd3582d4800.png)
 
 **A material design Toast Library for Android**
 
 ## Purpose
 
-**CuteToast** is an Android Custom `Toast` library that could be used instead of Default `Toast`. It does everything as Toast but with some **extra spice**.
+**CuteVisualizer** is an Android Audio Visualizer Libaray
 
-**CuteToast** allows developers to use Toast with Colorful design and Icons. It's **open-source** and **free to use**. 
+It's **open-source** and **free to use**. 
 Give it a try.!
 
 ## What's New
-- **CuteToast** without pre-built icon version added. Check the dependencies.
+- **CuteVisualizer** First Release
 
 More changes in `Release` Tab. 
 
