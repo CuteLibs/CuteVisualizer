@@ -18,6 +18,10 @@
 It's **open-source** and **free to use**. 
 Give it a try.!
 
+### Note:
+- It's an auto visualizer
+- It doesn't have anything to do with the music it's playing. 
+
 ## What's New
 - **CuteVisualizer** First Release
 
@@ -80,22 +84,41 @@ dependencies {
 
 ## Usage
 
-#### XML 
+### XML 
 
 ``` XML
 
 
- <com.rejowan.cutevisualizer.CuteVisualizer
+   <com.rejowan.cutevisualizer.CuteVisualizer
         android:id="@+id/equalizerView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
+        custom:animDuration="3000"
         custom:foregroundColor="@color/colorPrimary" />
 
 
 ```
 
-#### Java
+#### Customization
+Duration of Animation for Each Cycle
+
+``` XML
+
+        custom:animDuration="3000"
+
+```
+
+Change Colors for Bar (Only works with the colors from xml/colors.xml files color)
+
+``` XML
+
+        custom:foregroundColor="@color/colorPrimary"
+
+```
+
+
+### Java
 
 ##### Intialize
 ``` Java
