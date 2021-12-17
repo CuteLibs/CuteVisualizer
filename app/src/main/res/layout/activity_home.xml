@@ -12,7 +12,29 @@
         android:id="@+id/equalizerView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         custom:foregroundColor="@color/colorPrimary" />
+
+    <com.rejowan.cutevisualizer.CuteVisualizer
+        android:id="@+id/equalizerView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        custom:foregroundColor="@color/green" />
+
+    <com.rejowan.cutevisualizer.CuteVisualizer
+        android:id="@+id/equalizerView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        custom:foregroundColor="@color/yellow" />
+
+    <com.rejowan.cutevisualizer.CuteVisualizer
+        android:id="@+id/equalizerView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        custom:foregroundColor="@color/red" />
 
 
     <androidx.cardview.widget.CardView
