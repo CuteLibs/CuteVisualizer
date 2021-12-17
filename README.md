@@ -34,7 +34,16 @@ Click to View High Quality
 <img src="https://github.com/ahmmedrejowan/CuteVisualizer/blob/master/files/Screenshot_1639779216.png" width="400px"/>
 
 <img src="https://github.com/ahmmedrejowan/CuteVisualizer/blob/master/files/Screenshot_1639779223.png" width="200px"/> <img src="https://github.com/ahmmedrejowan/CuteVisualizer/blob/master/files/Screenshot_1639779256.png" width="200px"/>
-****
+
+## Demo
+
+Try Demo App to see how it actually works
+
+<a href="https://github.com/ahmmedrejowan/CuteVisualizer/blob/master/files/demo.apk"><img src="https://github.com/ahmmedrejowan/CuteVisualizer/blob/master/files/try.png" width="100px"/>
+</a>
+
+
+
 
 
 ## Prerequisites
