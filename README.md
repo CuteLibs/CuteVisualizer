@@ -6,7 +6,7 @@
  
 [![GitHub forks](https://img.shields.io/github/forks/ahmmedrejowan/CuteVisualizer)](https://github.com/ahmmedrejowan/CuteVisualizer/network) [![GitHub issues](https://img.shields.io/github/issues/ahmmedrejowan/CuteVisualizer)](https://github.com/ahmmedrejowan/CuteVisualizer/issues) [![GitHub stars](https://img.shields.io/github/stars/ahmmedrejowan/CuteVisualizer)](https://github.com/ahmmedrejowan/CuteVisualizer/stargazers) [![GitHub contributors](https://img.shields.io/github/contributors/ahmmedrejowan/CuteVisualizer)](https://github.com/ahmmedrejowan/CuteVisualizer/graphs/contributors)
 
-<img src="https://github.com/ahmmedrejowan/CuteVisualizer/blob/master/files/logo.jpg" width="400px"/>
+<img src="https://github.com/ahmmedrejowan/CuteVisualizer/blob/master/files/logo.jpg?raw=true" width="400px"/>
 
 
 **A simple Music Visualizer for Android**
@@ -31,15 +31,15 @@ More changes in `Release` Tab.
 
 Click to View High Quality
 
-<img src="https://github.com/ahmmedrejowan/CuteVisualizer/blob/master/files/Screenshot_1639779216.png" width="400px"/>
+<img src="https://github.com/ahmmedrejowan/CuteVisualizer/blob/master/files/Screenshot_1639779216.png?raw=true" width="400px"/>
 
-<img src="https://github.com/ahmmedrejowan/CuteVisualizer/blob/master/files/Screenshot_1639779223.png" width="200px"/> <img src="https://github.com/ahmmedrejowan/CuteVisualizer/blob/master/files/Screenshot_1639779256.png" width="200px"/>
+<img src="https://github.com/ahmmedrejowan/CuteVisualizer/blob/master/files/Screenshot_1639779223.png?raw=true" width="200px"/> <img src="https://github.com/ahmmedrejowan/CuteVisualizer/blob/master/files/Screenshot_1639779256.png?raw=true" width="200px"/>
 
 ## Demo
 
 Try Demo App to see how it actually works
 
-<a href="https://github.com/ahmmedrejowan/CuteVisualizer/blob/master/files/demo.apk"><img src="https://github.com/ahmmedrejowan/CuteVisualizer/blob/master/files/try.png" width="100px"/>
+<a href="https://github.com/ahmmedrejowan/CuteVisualizer/blob/master/files/demo.apk"><img src="https://github.com/ahmmedrejowan/CuteVisualizer/blob/master/files/try.png?raw=true" width="100px"/>
 </a>
 
 
