@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary" tools:override="true">@color/colorPrimary</item>
+        <item name="colorPrimaryDark" tools:override="true">@color/colorPrimaryDark</item>
+        <item name="colorAccent" tools:override="true">@color/colorAccent</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+
+</resources>

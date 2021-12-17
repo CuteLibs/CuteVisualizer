@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <View
+        android:id="@+id/music_bar1"
+        android:layout_width="4dp"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="@android:color/black" />
+
+    <View
+        android:id="@+id/music_bar2"
+        android:layout_width="4dp"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="@android:color/black" />
+
+    <View
+        android:id="@+id/music_bar3"
+        android:layout_width="4dp"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="@android:color/black" />
+
+    <View
+        android:id="@+id/music_bar4"
+        android:layout_width="4dp"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="@android:color/black" />
+
+    <View
+        android:id="@+id/music_bar5"
+        android:layout_width="4dp"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="@android:color/black" />
+
+    <View
+        android:id="@+id/music_bar6"
+        android:layout_width="4dp"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="@android:color/black" />
+
+    <View
+        android:id="@+id/music_bar7"
+        android:layout_width="4dp"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="@android:color/black" />
+
+    <View
+        android:id="@+id/music_bar8"
+        android:layout_width="4dp"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="@android:color/black" />
+
+    <View
+        android:id="@+id/music_bar9"
+        android:layout_width="4dp"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="@android:color/black" />
+
+    <View
+        android:id="@+id/music_bar10"
+        android:layout_width="4dp"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="@android:color/black" />
+
+    <View
+        android:id="@+id/music_bar11"
+        android:layout_width="4dp"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="@android:color/black" />
+
+
+</LinearLayout>
