@@ -3,10 +3,9 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven { url 'https://jitpack.io' }
 
     }
 }
 rootProject.name = "Cute Visaulizer"
 include ':app'
- include ':CuteVisualizer'
+include ':CuteVisualizer'
