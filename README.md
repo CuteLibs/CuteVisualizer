@@ -6,7 +6,8 @@
  
 [![GitHub forks](https://img.shields.io/github/forks/ahmmedrejowan/CuteVisualizer)](https://github.com/ahmmedrejowan/CuteVisualizer/network) [![GitHub issues](https://img.shields.io/github/issues/ahmmedrejowan/CuteVisualizer)](https://github.com/ahmmedrejowan/CuteVisualizer/issues) [![GitHub stars](https://img.shields.io/github/stars/ahmmedrejowan/CuteVisualizer)](https://github.com/ahmmedrejowan/CuteVisualizer/stargazers) [![GitHub contributors](https://img.shields.io/github/contributors/ahmmedrejowan/CuteVisualizer)](https://github.com/ahmmedrejowan/CuteVisualizer/graphs/contributors)
 
-![CuteVisualizer](https://github.com/ahmmedrejowan/CuteVisualizer/blob/master/files/logo.jpg)
+<img src="https://github.com/ahmmedrejowan/CuteVisualizer/blob/master/files/logo.jpg" width="400px"/>
+
 
 **A simple Music Visualizer for Android**
 
@@ -26,10 +27,15 @@ More changes in `Release` Tab.
 
 Click to View High Quality
 
-![Screenshot](https://user-images.githubusercontent.com/42619122/117723451-35f82400-b204-11eb-8914-d5ce84ccbbee.jpg)
+<img src="https://github.com/ahmmedrejowan/CuteVisualizer/blob/master/files/Screenshot_1639779216.png" width="400px"/>
+
+<img src="https://github.com/ahmmedrejowan/CuteVisualizer/blob/master/files/Screenshot_1639779223.png" width="200px"/> <img src="https://github.com/ahmmedrejowan/CuteVisualizer/blob/master/files/Screenshot_1639779256.png" width="200px"/>
+****
 
 
 ## Prerequisites
+
+### Old Method
 
 Add this in your root `build.gradle` file (**not** your module `build.gradle` file):
 
@@ -41,6 +47,21 @@ allprojects {
 	}
 }
 ```
+
+### New Method
+Add this in your root `settings.gradle` file
+
+```gradle
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_PROJECT)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url "https://jitpack.io" }
+    }
+}
+```
+
 <br/>
 
 ## Dependencies
@@ -50,136 +71,64 @@ Add this to your module's `build.gradle` file (make sure the version matches the
 ```gradle
 dependencies {
 	...
-	implementation 'com.github.ahmmedrejowan.CuteToast:CuteToast:1.2'
+	implementation 'com.github.ahmmedrejowan:CuteVisualizer:1.0'
 }
 ```
 <br/>
 
-If you want to use only **Custom Background Options** (no Pre-build Icons), then:
-
-```gradle
-dependencies {
-	...
-	implementation 'com.github.ahmmedrejowan.CuteToast:CuteToast-Custom:1.2'
-
-}
-```
 <br/>
 
 ## Usage
 
-Each of the following method returns a `Toast`. **Don't Forget to Call `.show()`**
+#### XML 
 
-To display an Info Toast:
+``` XML
 
-``` java
-       CuteToast.ct(this, "This is a Info Toast", CuteToast.LENGTH_SHORT, CuteToast.INFO, true).show();
-```
-To display a Warning Toast:
 
-``` java
-       CuteToast.ct(this, "This is a Warning Toast", CuteToast.LENGTH_SHORT, CuteToast.WARN, true).show();
-```
-To display an Error Toast:
+ <com.rejowan.cutevisualizer.CuteVisualizer
+        android:id="@+id/equalizerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        custom:foregroundColor="@color/colorPrimary" />
 
-``` java
-       CuteToast.ct(this, "This is a Error Toast", CuteToast.LENGTH_SHORT, CuteToast.ERROR, true).show();
-```
-To display a Success Toast:
 
-``` java
-       CuteToast.ct(this, "This is a Success Toast", CuteToast.LENGTH_SHORT, CuteToast.SUCCESS, true).show();
-```
-To display a Happy Toast:
-
-``` java
-       CuteToast.ct(this, "This is a Happy Toast", CuteToast.LENGTH_SHORT, CuteToast.HAPPY, true).show();
-```
-To display a Sad Toast:
-
-``` java
-       CuteToast.ct(this, "This is a Sad Toast", CuteToast.LENGTH_SHORT, CuteToast.SAD, true).show();
-```
-To display a Confuse Toast:
-
-``` java
-       CuteToast.ct(this, "This is a Confuse Toast", CuteToast.LENGTH_SHORT, CuteToast.CONFUSE, true).show();
-```
-To display a Delete Toast:
-
-``` java
-       CuteToast.ct(this, "This is a Delete Toast", CuteToast.LENGTH_SHORT, CuteToast.DELETE, true).show();
-```
-To display a Save Toast:
-
-``` java
-       CuteToast.ct(this, "This is a Save Toast", CuteToast.LENGTH_SHORT, CuteToast.SAVE, true).show();
-```
-To display a Normal Toast:
-
-``` java
-       CuteToast.ct(this, "This is a Normal Toast", CuteToast.LENGTH_SHORT, CuteToast.NORMAL, true).show();
 ```
 
-<br/>
+#### Java
 
-### If you don't want the Icons:
-#### Replace `true` to `false` at the end of the statment.
+##### Intialize
+``` Java
+        
+	CuteVisualizer cuteVisualizer = findViewById(R.id.equalizerView);
 
-``` java
-       CuteToast.ct(this, "This is a Info Toast", CuteToast.LENGTH_SHORT, CuteToast.INFO, false).show();
+
 ```
 
-``` java
-       CuteToast.ct(this, "This is a Error Toast", CuteToast.LENGTH_SHORT, CuteToast.ERROR, false).show();
+##### Start Animate
+``` Java
+        
+	cuteVisualizer.animateBars();
+
+
+```
+##### Stop Animate
+``` Java
+	
+	cuteVisualizer.stopBars();
+
+
+```
+#### Status
+``` Java
+	
+	cuteVisualizer.isAnimating();
+
+
 ```
 
-and same for the other types too. 
-
-#### Or Just Remove the last `boolean` part
-
-``` java
-       CuteToast.ct(this, "This is a Info Toast", CuteToast.LENGTH_SHORT, CuteToast.INFO).show();
-```
-
-``` java
-       CuteToast.ct(this, "This is a Error Toast", CuteToast.LENGTH_SHORT, CuteToast.ERROR).show();
-```
-
-<br/>
-
-### If you want to use Custom Icons:
-
-``` java
-        CuteToast.ct(this, "This is an Info Toast with Custom Star Icon", CuteToast.LENGTH_SHORT, CuteToast.INFO, R.drawable.ic_star).show();
-```
-
-``` java
-        CuteToast.ct(this, "This is an Error Toast with Custom Danger Icon", CuteToast.LENGTH_SHORT, CuteToast.ERROR, R.drawable.danger_ic).show();
-```
-
-## Notes
-
-
-* If `this` shows an error, then replace it with `MyActivity.this` where MyActivity is your activity name.
-* Durations are `CuteToast.LENGTH_SHORT` and `CuteToast.LENGTH_LONG` .
-* Total 10 Background Desings are available:
-	- INFO
-	- WARN
-	- ERROR
-	- SUCCESS
-	- HAPPY
-	- SAD
-	- CONFUSE
-	- DELETE
-	- SAVE
-	- NORMAL
-* Icon Options:
-	- If `icon` is `true`, then pre-built icons will be shown
-	- If 'icon` is 'false` or 'boolean' is removed, then no icon will be shown
-	- If 'icon' is added by using `R.drawabale.icon_name` , then custom icon will be shown.
-* If you use the Custom Dependency (`implementation 'com.github.ahmmedrejowan.CuteToast:CuteToast-Custom:1.1`) then you can't use the pre-built icons.
-
+##### Note
+-  You can call `stopBars();` after initialization to stop them showing full size. 
 
 
 <br/>
@@ -187,7 +136,7 @@ and same for the other types too.
 
 ## Contribute
 
-Please fork this repository and contribute back using [pull requests](https://github.com/ahmmedrejowan/CuteToast/pulls).
+Please fork this repository and contribute back using [pull requests](https://github.com/ahmmedrejowan/CuteVisualizer/pulls).
 
 Any contributions, large or small, major features, bug fixes, are welcomed and appreciated
 but will be thoroughly reviewed .
