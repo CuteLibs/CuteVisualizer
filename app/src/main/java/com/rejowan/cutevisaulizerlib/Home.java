@@ -1,16 +1,16 @@
-package com.rejowan.cutevisaulizer;
+package com.rejowan.cutevisaulizerlib;
 
 import android.os.Bundle;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.rejowan.cutevisualizer.EqualizerView;
+import com.rejowan.cutevisualizer.CuteVisualizer;
 
 
 public class Home extends AppCompatActivity {
 
-    EqualizerView equalizerView;
+    CuteVisualizer cuteVisualizer;
     TextView playButton;
     boolean isPlaying = false;
 
@@ -20,21 +20,21 @@ public class Home extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        equalizerView = findViewById(R.id.equalizerView);
+        cuteVisualizer = findViewById(R.id.equalizerView);
         playButton = findViewById(R.id.playButton);
 
-        equalizerView.stopBars();
+        cuteVisualizer.stopBars();
 
         playButton.setOnClickListener(v -> {
             if (isPlaying) {
                 isPlaying = false;
                 playButton.setText("Play");
-                equalizerView.stopBars();
+                cuteVisualizer.stopBars();
 
             } else {
                 isPlaying = true;
                 playButton.setText("Pause");
-                equalizerView.animateBars();
+                cuteVisualizer.animateBars();
             }
 
         });

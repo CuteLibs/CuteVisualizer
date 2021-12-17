@@ -14,7 +14,7 @@ import android.view.animation.LinearInterpolator;
 import android.widget.LinearLayout;
 
 
-public class EqualizerView extends LinearLayout {
+public class CuteVisualizer extends LinearLayout {
 
     View musicBar1;
     View musicBar2;
@@ -37,18 +37,18 @@ public class EqualizerView extends LinearLayout {
     int duration;
 
 
-    public EqualizerView(Context context) {
+    public CuteVisualizer(Context context) {
         super(context);
         initViews();
     }
 
-    public EqualizerView(Context context, AttributeSet attrs) {
+    public CuteVisualizer(Context context, AttributeSet attrs) {
         super(context, attrs);
         setAttrs(context, attrs);
         initViews();
     }
 
-    public EqualizerView(Context context, AttributeSet attrs, int defStyle) {
+    public CuteVisualizer(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
         setAttrs(context, attrs);
         initViews();

@@ -1,4 +1,4 @@
-package com.rejowan.cutevisaulizer;
+package com.rejowan.cutevisaulizerlib;
 
 import android.content.Context;
 
