@@ -6,9 +6,9 @@
  
 [![GitHub forks](https://img.shields.io/github/forks/ahmmedrejowan/CuteVisualizer)](https://github.com/ahmmedrejowan/CuteVisualizer/network) [![GitHub issues](https://img.shields.io/github/issues/ahmmedrejowan/CuteVisualizer)](https://github.com/ahmmedrejowan/CuteVisualizer/issues) [![GitHub stars](https://img.shields.io/github/stars/ahmmedrejowan/CuteVisualizer)](https://github.com/ahmmedrejowan/CuteVisualizer/stargazers) [![GitHub contributors](https://img.shields.io/github/contributors/ahmmedrejowan/CuteVisualizer)](https://github.com/ahmmedrejowan/CuteVisualizer/graphs/contributors)
 
-![CuteVisualizer](https://user-images.githubusercontent.com/42619122/117730837-d9e6cd00-b20e-11eb-94fb-3bd3582d4800.png)
+![CuteVisualizer](https://github.com/ahmmedrejowan/CuteVisualizer/blob/master/files/logo.jpg)
 
-**A material design Toast Library for Android**
+**A simple Music Visualizer for Android**
 
 ## Purpose
 
