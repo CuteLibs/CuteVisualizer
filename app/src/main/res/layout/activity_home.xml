@@ -13,6 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
+        custom:animDuration="7000"
         custom:foregroundColor="@color/colorPrimary" />
 
     <com.rejowan.cutevisualizer.CuteVisualizer

@@ -32,6 +32,7 @@ public class Home extends AppCompatActivity {
         cuteVisualizer3.stopBars();
         cuteVisualizer4.stopBars();
 
+
         playButton.setOnClickListener(v -> {
             if (isPlaying) {
                 isPlaying = false;
