@@ -11,6 +11,7 @@
 
 **A simple Music Visualizer for Android**
 
+
 ## Purpose
 
 **CuteVisualizer** is an Android Audio Visualizer Libaray
@@ -26,6 +27,14 @@ Give it a try.!
 - **CuteVisualizer** First Release
 
 More changes in `Release` Tab. 
+
+## Specs
+- Minimum SDK 21
+- Target SDK 31
+- AndroidX Library
+- Gradle 7.0.4
+- Java 11
+
 
 ## Screenshots
 
