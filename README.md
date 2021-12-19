@@ -9,7 +9,7 @@
 <img src="https://github.com/ahmmedrejowan/CuteVisualizer/blob/master/files/logo.jpg?raw=true" width="400px"/>
 
 
-**A simple Music Visualizer for Android**
+**A simple Music Visualizer/Equalizer View for Android**
 
 
 ## Purpose
